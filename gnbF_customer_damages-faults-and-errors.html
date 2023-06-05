@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nest</title>
+    <link rel="shortcut icon" href="images/favicon.svg">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/nest.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <header>
+        <div>
+            <input type="button" value="menu" class="btn_fnb">
+            <h1>
+                <a href="index.html">nest</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="list_new-arrivals.html">New arrivals<span>14</span></a></li>
+                    <li><a href="list_best-sellers.html">Best sellers<span>17</span></a></li>
+                    <li>
+                        <b><a href="list_chair.html">Chair<span>88</span></a></b>
+                        <ol>
+                            <li><a href="list_chair-sofa.html">Sofas<span>20</span></a></li>
+                            <li><a href="list_chair-lounge.html">Lounge chairs<span>23</span></a></li>
+                            <li><a href="list_chair-dining.html">Dining chairs<span>22</span></a></li>
+                            <li><a href="list_chair-stool.html">Stools<span>23</span></a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b><a href="list_light.html">Lighting<span>88</span></a></b>
+                        <ol>
+                            <li><a href="list_light-pendant.html">Pendant lights<span>23</span></a></li>
+                            <li><a href="list_light-table.html">Table lamps<span>21</span></a></li>
+                            <li><a href="list_light-floor.html">Floor lamps<span>24</span></a></li>
+                            <li><a href="list_light-desk.html">Desk lamps<span>20</span></a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <a href="#" class="panelSearch">Search</a>
+                <a href="gnbH_wishlist.html">Wishlist</a>
+                <a href="gnbH_account.html">Account</a>
+                <a href="gnbH_basket.html">Basket<span>99</span></a>
+            </div>
+        </div>
+        <div id="search">
+            <div>
+                <h2>Search</h2>
+                <input type="button" value="close" class="panelClose">
+                <div>
+                    <input type="search" placeholder="Search here..." title="Search here">
+                    <input type="submit" value="explore">
+                </div>
+                <strong>Most Popular</strong>
+                <ul>
+                    <li><a href="detail_light-desk-original-1227.html">Original 1227 Desk Lamp</a></li>
+                    <li><a href="detail_chair-lounge-wassily.html">Wassily Lounge Chair</a></li>
+                    <li><a href="detail_light-floor-grashoppa.html">Grashoppa Floor Lamp</a></li>
+                    <li><a href="detail_light-pendant-a333-turnip.html">A333 Turnip Pendant Light</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="txtContainer errorsContainer">
+        <h2>Damages, faults &amp; errors</h2>
+        <p>
+            If your goods arrive damaged, faulty or in error, Nest is here to fully support you. All claims are handled by our friendly customer care team who are happy to help.
+        </p>
+        <p>
+            We kindly ask you to provide us with as much information as possible at this stage, to allow us to deliver a prompt resolution. Please fill in the form below and attach the specified images to help us resolve your claim. Failure to supply the below information may result in a delay to your claim.
+        </p>
+        <p>
+            A member of our team will confirm receipt of your form within 48-72 business hours.
+        </p>
+        <form>
+            <fieldset>
+                <legend>Your details</legend>
+                <span class="checkLabel">
+                    <input type="text" id="firstName">
+                    <label for="firstName">First name</label>
+                </span>
+                <span class="checkLabel">
+                    <input type="text" id="lastName">
+                    <label for="lastName">Last name</label>
+                </span>
+                <span class="checkLabel">
+                    <input type="email" id="userID" required>
+                    <label for="userID">Email address</label>
+                </span>
+                <span class="checkLabel">
+                    <input type="text" id="orderNum" required>
+                    <label for="orderNum">Order number</label>
+                </span>
+                <label for="message">Message</label>
+                <textarea id="message" required></textarea>
+            </fieldset>
+            <div>
+                <p>
+                    To allow us to resolve this for you as quickly as possible, please provide ALL the below:
+                </p>
+                <ul>
+                    <li>
+                        •Images of the product received (demonstrating any damages/faults/errors).
+                    </li>
+                    <li>
+                        •Images of the packaging (demonstrating how the item/s were packaged inside on arrival as well as showing any damage the packaging has suffered).
+                    </li>
+                    <li>
+                        •Images of any packaging labels (both brand labels as well as courier labels).
+                    </li>
+                    <li>
+                        •Images of any labels or stickers on the product itself.
+                    </li>
+                </ul>
+                <p>
+                    Thank you for taking time to complete our form in full.
+                </p>
+            </div>
+            <fieldset>
+                <label for="file" class="btn_arrow blackTxt">click to attach image(s)</label>
+                <input type="file" id="file" accept="image/*, video/*" multiple>
+                <input type="submit" value="send" class="btn_arrow" disabled>
+            </fieldset>
+        </form>
+        <p>
+            Our customer care team will aim to provide you with a resolution within 5-7 working days of receipt of your email. Time must be allowed for investigation by Nest, as well as the brand and/or delivery agents before a resolution can be provided.
+        </p>
+        <p>
+            <mark class="note">Please note</mark>
+            in case of more complex claims or national holidays and shutdowns, additional investigation time may be required.
+        </p>
+        <p>
+            The return of goods may be necessary under the claim. When sending any item back to us, it is important that you save all the original packaging. Please make sure it is packaged as it was when it arrived with you. If packaging was damaged, extra packaging may be required. Our customer care team are on hand to give guidance on this.
+        </p>
+    </div>
+
+    <a href="#" class="btnTop">
+        <img src="images/ico_top.svg" alt="top arrow">
+    </a>
+
+    <footer>
+        <div>
+            <div>
+                <h3>We're here to help</h3>
+                <address>
+                    <a href="tel:+441142433000">tel 0044 114 243 3000</a>
+                    <a href="mailto:info@nest.co.uk">email info@nest.co.uk</a>
+                </address>
+            </div>
+            <div>
+                <h3>About us</h3>
+                <ul>
+                    <li><a href="gnbF_about_about.html">About</a></li>
+                    <li><a href="gnbF_about_our-history.html">Our history</a></li>
+                    <li><a href="gnbF_about_meet-the-team.html">Meet the team</a></li>
+                    <li><a href="gnbF_about_join-our-team.html">Join our team</a></li>
+                    <li><a href="https://uk.trustpilot.com/review/nest.co.uk" target="_blank">What our customers say</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Customer service</h3>
+                <ul>
+                    <li><a href="gnbF_customer_contact-us.html">Contact us</a></li>
+                    <li><a href="gnbF_customer_delivery.html">Delivery</a></li>
+                    <li><a href="gnbF_customer_made-to-order.html">Made to order</a></li>
+                    <li><a href="gnbF_customer_clearabee.html">Furniture collection &amp; recycling</a></li>
+                    <li><a href="gnbF_customer_damages-faults-and-errors.html">Damages, faults &amp; errors</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Inside inspiration</h3>
+                <p>Sign up for our emails and enjoy hearing about all things design, plus get 10% off your next order*</p>
+                <form>
+                    <input type="email" placeholder="Email" title="insert ur email">
+                    <input type="submit" value="Submit" title="send to data">
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <a href="gnbF_usefulLink_terms-and-conditions.html">Terms &amp; conditions (B2C)</a>
+            <a href="gnbF_usefulLink_privacy-and-cookies-policy.html">Privacy &amp; cookie policy</a>
+            <a href="gnbF_usefulLink_site-security.html">Site security</a>
+            <a href="gnbF_usefulLink_gdpr-compliance.html">GDPR compliance</a>
+            <span>
+                <a href="https://www.instagram.com/nest_co_uk/" target="_blank">instagram</a>
+                <a href="https://www.facebook.com/nest.co.uk" target="_blank">facebook</a>
+                <a href="https://www.pinterest.co.kr/nestcouk/" target="_blank">pinterest</a>
+                <a href="https://www.youtube.com/user/Nestcouk" target="_blank">youtube</a>
+                <a href="https://twitter.com/nest_co_uk" target="_blank">twitter</a>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nest</title>
+    <link rel="shortcut icon" href="images/favicon.svg">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/jquery.bxslider.js"></script>
+    <script src="js/jquery.fitvids.js"></script>
+    <script src="js/nest.js"></script>
+    <link rel="stylesheet" href="css/import.css">
+</head>
+<body>
+    <header class="mainGnb">
+        <div>
+            <input type="button" value="menu" class="btn_fnb">
+            <h1>
+                <a href="index.html">nest</a>
+            </h1>
+            <nav>
+                <ul>
+                    <li><a href="list_new-arrivals.html">New arrivals<span>14</span></a></li>
+                    <li><a href="list_best-sellers.html">Best sellers<span>17</span></a></li>
+                    <li>
+                        <b><a href="list_chair.html">Chair<span>88</span></a></b>
+                        <ol>
+                            <li><a href="list_chair-sofa.html">Sofas<span>20</span></a></li>
+                            <li><a href="list_chair-lounge.html">Lounge chairs<span>23</span></a></li>
+                            <li><a href="list_chair-dining.html">Dining chairs<span>22</span></a></li>
+                            <li><a href="list_chair-stool.html">Stools<span>23</span></a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <b><a href="list_light.html">Lighting<span>88</span></a></b>
+                        <ol>
+                            <li><a href="list_light-pendant.html">Pendant lights<span>23</span></a></li>
+                            <li><a href="list_light-table.html">Table lamps<span>21</span></a></li>
+                            <li><a href="list_light-floor.html">Floor lamps<span>24</span></a></li>
+                            <li><a href="list_light-desk.html">Desk lamps<span>20</span></a></li>
+                        </ol>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <a href="#" class="panelSearch">Search</a>
+                <a href="gnbH_wishlist.html">Wishlist</a>
+                <a href="gnbH_account.html">Account</a>
+                <a href="gnbH_basket.html">Basket<span>99</span></a>
+            </div>
+        </div>
+        <div id="search">
+            <div>
+                <h2>Search</h2>
+                <input type="button" value="close" class="panelClose">
+                <div>
+                    <input type="search" placeholder="Search here..." title="Search here">
+                    <input type="submit" value="explore">
+                </div>
+                <strong>Most Popular</strong>
+                <ul>
+                    <li><a href="detail_light-desk-original-1227.html">Original 1227 Desk Lamp</a></li>
+                    <li><a href="detail_chair-lounge-wassily.html">Wassily Lounge Chair</a></li>
+                    <li><a href="detail_light-floor-grashoppa.html">Grashoppa Floor Lamp</a></li>
+                    <li><a href="detail_light-pendant-a333-turnip.html">A333 Turnip Pendant Light</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="indexContainer">
+        <ul class="sliderVideo">
+            <li>
+                <video autoplay muted loop poster="video/video_01_starfall.jpg">
+                    <source src="video/video_01.mp4" type="video/mp4">
+                </video>
+                <div class="mainTxt">
+                    <h3>
+                        <small>Moooi</small>
+                        Starfall Suspension Light
+                    </h3>
+                    <p>Featuring 30 points of light, Starfall is a circular suspension light with a modern edge. The individual arms give the impression of stars punctuating the sky, with the ultimate effect being both warming and dynamic.</p>
+                    <a href="detail_light-pendant-starfall-suspension.html" class="btn_arrow whiteTxt">SHOW NOW</a>
+                </div>
+            </li>
+            <li>
+                <video autoplay muted loop poster="video/video_02_illy.jpg">
+                    <source src="video/video_02.mp4" type="video/mp4">
+                </video>
+                <div class="mainTxt">
+                    <h3>
+                        <small>Kartell</small>
+                        Illy Re-Chair
+                    </h3>
+                    <p>The Kartel Re-chair by Antonio Citterio is an excellent example of intentional and environmentally friendly design. Aligning with Kartell's commitment to sustainability, the Kartell Re-chair provides timeless design while utilising recycled materials.</p>
+                    <a href="detail_chair-dining-illy-re.html" class="btn_arrow whiteTxt">SHOW NOW</a>
+                </div>
+            </li>
+        </ul> <!-- sliderVideo fin. -->
+        <div class="illuminateBox">
+            <h3>Illuminate your spaces</h3>
+            <ul class="sliderHCarousel listBox">
+                <li>
+                    <a href="detail_light-table-night-owl.html">
+                        <img src="images/light-table-night-owl_01.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Fritz Hansen</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            Night Owl Table Lamp
+                            <mark>$178.93</mark>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <a href="detail_light-pendant-ginger.html">
+                        <img src="images/light-pendant-ginger_03.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Marset</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            Ginger Pendant Light
+                            <mark>$271.97</mark>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <a href="detail_light-table-ph-2-2-the-question-mark.html">
+                        <img src="images/light-table-ph-2-2-the-question-mark_01.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Louis Poulsen</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>                        
+                        <span>
+                            PH 2/2 The Question Mark Table Lamp
+                            <mark>$1201.36</mark>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <a href="detail_light-floor-timberline.html">
+                        <img src="images/light-floor-timberline_01.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Gubi</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            Timberline Floor Lamp
+                            <mark>$708.03</mark>
+                        </span>
+                    </div>                    
+                </li>
+                <li>
+                    <a href="detail_light-floor-tab.html">
+                        <img src="images/light-floor-tab_02.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Flos</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            Tab Floor Lamp
+                            <mark>$385.05</mark>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <a href="detail_light-floor-peek.html">
+                        <img src="images/light-floor-peek_02.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Menu</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            Peek Floor Lamp
+                            <mark>$415.45</mark>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <a href="detail_light-pendant-semi.html">
+                        <img src="images/light-pendant-semi_03.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Gubi</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            Semi Pendant Light
+                            <mark>$353.51</mark>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <a href="detail_light-table-nessino.html">
+                        <img src="images/light-table-nessino_02.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Artemide</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            Nessino Table Lamp
+                            <mark>$167.19</mark>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <a href="detail_light-table-control.html">
+                        <img src="images/light-table-control_01.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Muuto</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            Control Table Lamp
+                            <mark>$161.11</mark>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <a href="detail_light-table-atD6-colette.html">
+                        <img src="images/light-table-atD6-colette_01.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>&amp;Tradition</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            ATD6 Colette Table Lamp
+                            <mark>$309.05</mark>
+                        </span>
+                    </div>
+                </li>
+            </ul>
+        </div> <!-- illuminateBox fin. -->
+        <div class="sliderV">
+            <ul class="sliderVCarousel">
+                <li>
+                    <img src="images/light-floor-arco_gallery_02.jpg" alt="product image">
+                    <div class="mainTxt">
+                        <h3>
+                            <small>Flos</small>
+                            Arco Floor Lamp
+                        </h3>
+                        <p>First released in 1962 it has become an undoubtable design icon today. the Flos Arco Floor Lamp by revered designer Achille Castiglioni.</p>
+                        <a href="detail_light-floor-arco.html" class="btn_arrow blackTxt">SHOW NOW</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/light-floor-grashoppa_gallery_01.jpg" alt="product image">
+                    <div class="mainTxt">
+                        <h3>
+                            <small>Gubi</small>
+                            Grashoppa Floor Lamp
+                        </h3>
+                        <p>The iconic Gubi Gräshoppa Lamp was designed in 1947 by architect, industrial and interior designer, Greta Grossman.</p>
+                        <a href="detail_light-floor-grashoppa.html" class="btn_arrow blackTxt">SHOW NOW</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/chair-lounge-palissade-outdoor_gallery_01.jpg" alt="product image">
+                    <div class="mainTxt">
+                        <h3>
+                            <small>Hay</small>
+                            Palissade Outdoor Lounge Chair - Low
+                        </h3>
+                        <p>The Hay Palissade Outdoor Lounge Chair - Low is part of a complete collection of outdoor furniture, designed by Ronan &amp; Erwan Bouroullec for Hay.</p>
+                        <a href="detail_chair-lounge-palissade-outdoor.html" class="btn_arrow blackTxt">SHOW NOW</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/light-desk-lampe-de-bureau_gallery_01.jpg" alt="product image">
+                    <div class="mainTxt">
+                        <h3>
+                            <small>Vitra</small>
+                            Lampe de Bureau Table Lamp
+                        </h3>
+                        <p>Designed by Jean Prouvé in 1930, the Vitra Lampe de Bureau is a unique desk light ideal for your home office.</p>
+                        <a href="detail_light-desk-lampe-de-bureau.html" class="btn_arrow blackTxt">SHOW NOW</a>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/chair-stool-butterfly_gallery_01.jpg" alt="product image">
+                    <div class="mainTxt">
+                        <h3>
+                            <small>Vitra</small>
+                            Butterfly Stool
+                        </h3>
+                        <p>Utilising the Eames' technique of shaping plywood, Sori Yanagi created the beautiful Vitra Butterfly Stool, blending Eastern shapes with Western design.</p>
+                        <a href="detail_chair-stool-butterfly.html" class="btn_arrow blackTxt">SHOW NOW</a>
+                    </div>
+                </li>
+            </ul>
+        </div> <!-- sliderVCarousel fin. -->
+        <div class="investBox">
+            <h3>Invest in great design</h3>
+            <ul class="sliderHCarousel listBox">
+                <li>
+                    <a href="detail_chair-lounge-wassily.html">
+                        <img src="images/chair-lounge-wassily_01.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Knoll Studio</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            Wassily Lounge Chair
+                            <mark>$2,084.28</mark>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <a href="detail_chair-lounge-mg501-cuba.html">
+                        <img src="images/chair-lounge-mg501-cuba_01.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Carl Hansen &amp; Son</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            MG501 Cuba Chair - Soaped Oak
+                            <mark>$653.68</mark>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <a href="detail_chair-lounge-lamino-easy.html">
+                        <img src="images/chair-lounge-lamino-easy_01.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Swedese</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            Lamino Easy Chair
+                            <mark>$2,118.11</mark>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <a href="detail_chair-dining-tulip.html">
+                        <img src="images/chair-dining-tulip_01.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Knoll Studio</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            Tulip Chair
+                            <mark>$1,109.20</mark>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <a href="detail_chair-dining-about-aac-22.html">
+                        <img src="images/chair-dining-about-aac-22_01.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Hay</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            About a Chair AAC 22 - Oak Base
+                            <mark>$299.08</mark>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <a href="detail_chair-dining-c.html">
+                        <img src="images/chair-dining-c_03.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Gubi</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            C-Chair Dining Chair
+                            <mark>$723.39</mark>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <a href="detail_chair-stool-palissade-outdoor.html">
+                        <img src="images/chair-stool-palissade-outdoor_01.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Hay</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            Palissade Outdoor Stool
+                            <mark>$268.42</mark>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <a href="detail_chair-lounge-big-big.html">
+                        <img src="images/chair-lounge-big-big_01.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>NORR11</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            Big Big Lounge Chair
+                            <mark>$3,177.13</mark>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <a href="detail_chair-dining-johansson-j64.html">
+                        <img src="images/chair-dining-johansson-j64_01.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Fredericia</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            Johansson J64 Armchair
+                            <mark>$576.35</mark>
+                        </span>
+                    </div>
+                </li>
+                <li>
+                    <a href="detail_chair-lounge-wegner-j16-rocking.html">
+                        <img src="images/chair-lounge-wegner-j16-rocking_03.jpg" alt="product image" data-src>
+                    </a>
+                    <div>
+                        <span>
+                            <b>Fredericia</b>
+                            <input type="button" value="wish" class="toggleWish">
+                        </span>
+                        <span>
+                            Wegner J16 Rocking Chair
+                            <mark>$2,646.23</mark>
+                        </span>
+                    </div>
+                </li>
+            </ul>
+        </div> <!-- investBox fin. -->
+        <div>
+            <figure>
+                <img src="images/home_02.jpg" alt="product image">
+                <figcaption>
+                    <a href="list_chair.html">CHAIR</a>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="images/home_01.jpg" alt="product image">
+                <figcaption>
+                    <a href="list_light.html">LIGHT</a>
+                </figcaption>
+            </figure>
+        </div> <!-- chair, light fin. -->
+        <div>
+            <div>
+                <div class="mainTxt">
+                    <h3>Lounge chairs</h3>
+                    <p>Whether it’s the design classic you’ve always wanted or a relaxing finishing touch to your living room, we’ve got the perfect designer lounge chair and ottomans for you.</p>
+                    <p>Our collection includes designs from Artek, Carl Hansen, Fritz Hansen, Knoll, Vitra and many more.</p>
+                    <a href="list_chair-lounge.html" class="btn_arrow blackTxt">SHOW NOW</a>
+                </div>
+                <img src="images/home_05.jpg" alt="product image" data-src>
+            </div>
+            <div>
+                <img src="images/home_04.jpg" alt="product image" data-src>
+                <div class="mainTxt">
+                    <h3>Dining chairs</h3>
+                    <p>Add the finishing touch to your dining room experience. Choose from our range of contemporary, designer chairs from the likes of Vitra, Fritz Hansen and HAY.</p>
+                    <p>Discover one of our design classics - selected styles now with 20% off your fourth dining chair when you buy a set of four.</p>
+                    <a href="list_chair-lounge.html" class="btn_arrow blackTxt">SHOW NOW</a>
+                </div>
+            </div>
+        </div> <!-- chair fin. -->
+        <div class="mainTxt">
+            <h2>LIGHTING</h2> <!-- line : before, after -->
+            <p>Whether you’re looking to add light to your lounge, kitchen, bathroom or dining area or a new commercial space, we can help you add that special finishing touch with our luxury range of designer and contemporary lighting.</p>
+            <ul>
+                <li><a href="list_light-pendant.html">Pendant<br>lights</a></li>
+                <li><a href="list_light-table.html">Table<br>lamps</a></li>
+                <li><a href="list_light-floor.html">Floor<br>lamps</a></li>
+                <li><a href="list_light-desk.html">Desk<br>lamps</a></li>
+            </ul>
+        </div> <!-- light fin. -->
+    </div> <!-- indexContainer fin. -->
+
+    <a href="#" class="btnTop">
+        <img src="images/ico_top.svg" alt="top arrow">
+    </a>
+
+    <footer>
+        <div>
+            <div>
+                <h3>We're here to help</h3>
+                <address>
+                    <a href="tel:+441142433000">tel 0044 114 243 3000</a>
+                    <a href="mailto:info@nest.co.uk">email info@nest.co.uk</a>
+                </address>
+            </div>
+            <div>
+                <h3>About us</h3>
+                <ul>
+                    <li><a href="gnbF_about_about.html">About</a></li>
+                    <li><a href="gnbF_about_our-history.html">Our history</a></li>
+                    <li><a href="gnbF_about_meet-the-team.html">Meet the team</a></li>
+                    <li><a href="gnbF_about_join-our-team.html">Join our team</a></li>
+                    <li><a href="https://uk.trustpilot.com/review/nest.co.uk" target="_blank">What our customers say</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Customer service</h3>
+                <ul>
+                    <li><a href="gnbF_customer_contact-us.html">Contact us</a></li>
+                    <li><a href="gnbF_customer_delivery.html">Delivery</a></li>
+                    <li><a href="gnbF_customer_made-to-order.html">Made to order</a></li>
+                    <li><a href="gnbF_customer_clearabee.html">Furniture collection &amp; recycling</a></li>
+                    <li><a href="gnbF_customer_damages-faults-and-errors.html">Damages, faults &amp; errors</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Inside inspiration</h3>
+                <p>Sign up for our emails and enjoy hearing about all things design, plus get 10% off your next order*</p>
+                <form>
+                    <input type="email" placeholder="Email" title="insert ur email">
+                    <input type="submit" value="Submit" title="send to data">
+                </form>
+            </div>
+        </div>
+
+        <div>
+            <a href="gnbF_usefulLink_terms-and-conditions.html">Terms &amp; conditions (B2C)</a>
+            <a href="gnbF_usefulLink_privacy-and-cookies-policy.html">Privacy &amp; cookie policy</a>
+            <a href="gnbF_usefulLink_site-security.html">Site security</a>
+            <a href="gnbF_usefulLink_gdpr-compliance.html">GDPR compliance</a>
+            <span>
+                <a href="https://www.instagram.com/nest_co_uk/" target="_blank">instagram</a>
+                <a href="https://www.facebook.com/nest.co.uk" target="_blank">facebook</a>
+                <a href="https://www.pinterest.co.kr/nestcouk/" target="_blank">pinterest</a>
+                <a href="https://www.youtube.com/user/Nestcouk" target="_blank">youtube</a>
+                <a href="https://twitter.com/nest_co_uk" target="_blank">twitter</a>
+            </span>
+        </div>
+    </footer>
+</body>
+</html>
