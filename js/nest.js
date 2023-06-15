@@ -323,6 +323,7 @@ function disabled(){
 function fileCustom(){
     $("#file").on('change',function(){
         var fileName = $("#file").val();
-        $("label[for='file']").text(fileName);
+        $("label[for='file']").text(fileName).addClass("active").css({"background-color":"#474747","color":"#fff"});
+        $(".txtContainer.errorsContainer > form > fieldset:last-of-type > input[type='submit']").removeAttr("disabled");
       });
 }

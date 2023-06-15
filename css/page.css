@@ -2275,13 +2275,13 @@
         border: 1px solid #ccc;
         width: 100%; margin-top: 20px;
     }
-    /* !.txtContainer.errorsContainer > form > fieldset:last-of-type > input[type="submit"].btn_arrow:hover{
+    .txtContainer.errorsContainer > form > fieldset:last-of-type > input[type="submit"].btn_arrow:hover{
         color: #fff; border-color: #474747;
         padding-left: 18.11%;
         text-align: left;
         background: url('../images/ico_arrowWhite.svg') 59.26% center / 15px no-repeat;
         background-color: #474747;
-    } */
+    }
     .txtContainer.errorsContainer > form > fieldset:last-of-type > input[type="file"]{
         display: none;
     }
@@ -6786,13 +6786,16 @@
         color: #ccc;
         border: 1px solid #ccc;
     }
-    /* !.txtContainer.errorsContainer > form > fieldset:last-of-type > input[type="submit"].btn_arrow:hover{
+    .txtContainer.errorsContainer > form > fieldset:last-of-type > input[type="submit"]{
+        border: 1px solid #474747;
+    }
+    .txtContainer.errorsContainer > form > fieldset:last-of-type > input[type="submit"].btn_arrow:hover{
         color: #fff; border-color: #474747;
         padding-left: 18.11%;
         text-align: left;
         background: url('../images/ico_arrowWhite.svg') 59.26% center / 15px no-repeat;
         background-color: #474747;
-    } */
+    }
     .txtContainer.errorsContainer > form > fieldset:last-of-type > input[type="file"]{
         display: none;
     }

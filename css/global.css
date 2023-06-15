@@ -1,18 +1,6 @@
 video{
     width: 100%;
 }
-/* a,input,strong,mark,h2,h3,legend,label,li,dt{
-    font-family: "futura-pt", sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-}
-small{
-    font-family: "futura-pt", sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 20px;
-} */
 input{
     border-radius: 0px;
 }
