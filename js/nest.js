@@ -28,6 +28,7 @@ $(document).ready(function(){
     panelControl(".meetTeamContainer > ul > li > input[type='button']");
     cardBg();
     disabled();
+    fileCustom();
 });
 
 function customSlider(slideName,slideMode,slideEasing,slideVideo,slidePager,slidePagerType,slideControls,slideAuto,slideAutoControls,slideAutoStart,slideAutoHover,slideMaxSlides,slideMinSlides,slideSlideWidth,slideShrinkItems,slideSlideMargin,slideWrapperClass){
@@ -317,4 +318,11 @@ function disabled(){
     //         $(".checkoutContainer > div:last-of-type > form > p").css("display","block");
     //     }
     // });
+}
+
+function fileCustom(){
+    $("#file").on('change',function(){
+        var fileName = $("#file").val();
+        $(".upload-name").val(fileName);
+      });
 }
