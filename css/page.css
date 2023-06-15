@@ -132,11 +132,6 @@
 
 
 /* ? mobile */
-@media screen and (orientation: landscape){
-    .meetTeamContainer > div > figure > img{
-        display: block; width: 100vw;
-    }
-}
 @media screen and (max-width: 499px){
     .aboutContainer > div:last-of-type > ol > li:not(:nth-child(1)),
     .meetTeamContainer > ul > li:not(:nth-child(1)){
@@ -6944,5 +6939,10 @@
 @media screen and (min-width: 2400px){
     .meetTeamContainer > div > figure > figcaption > div{
         height: 1080px;
+    }
+}
+@media screen and (orientation: landscape){
+    .meetTeamContainer > div > figure > img{
+        width: 100vw;
     }
 }
