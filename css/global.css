@@ -1,6 +1,9 @@
 video{
     width: 100%;
 }
+.fit-vids-style{
+    height: 0;
+}
 /* a,input,strong,mark,h2,h3,legend,label,li,dt{
     font-family: "futura-pt", sans-serif;
     font-weight: 400;
