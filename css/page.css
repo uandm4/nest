@@ -2831,9 +2831,6 @@
     .wishContainer > ul.listBox > li{
         float: left; width: 22.3%;
     }
-    .wishContainer > ul.listBox > li:not(:nth-child(4n-3)){
-        margin-left: 3.6%;
-    }
     /* * filter */
     .listContainer > div:nth-child(2){
         margin-top: 100px;
