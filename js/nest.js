@@ -23,11 +23,9 @@ $(document).ready(function(){
     countComponent();
     account();
     closeBG();
-    // basketRemove();
     textareaActive();
     panelControl(".meetTeamContainer > ul > li > input[type='button']");
     cardBg();
-    disabled();
     fileCustom();
 });
 
@@ -242,17 +240,7 @@ function closeBG(){
     $(".basketContainer > div:first-of-type > ul > li > input[type='button']").mouseleave(function(){
         $(this).parent().removeClass("active");
     });
-
-    // $(".basketContainer > div:first-of-type > ul > li > input[type='button']").click(function(){
-    //     $(this).parent().css("display","none");
-    // });
 }
-
-// function basketRemove(){
-//     $(".wishContainer > ul > li > form > input[type='button']").click(function(){
-//         $(this).parent().parent().css("display","none");
-//     });
-// }
 
 function panelControl(btn){
         var currentPanel = null;
@@ -304,20 +292,6 @@ function cardBg(){
                 break;
         }
     });
-}
- 
-function disabled(){
-    
-    // var checked = $("#acceptTerms").is(":checked");
-
-    // $(".checkoutContainer > div#paymentBox > form > input[type='submit']").click(function(){
-    //     if($("#confirmBox").hasClass("active") && checked == true){
-    //         $('input:checkbox').prop('checked',true);
-    //         $(".checkoutContainer > div:last-of-type > form > input[type='submit']").removeAttr("disabled").addClass("active");
-    //     }else if(checked == false){
-    //         $(".checkoutContainer > div:last-of-type > form > p").css("display","block");
-    //     }
-    // });
 }
 
 function fileCustom(){
