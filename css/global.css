@@ -1602,9 +1602,6 @@ a.btn_arrow{
         width: 40%;
         margin-left: 11%;
     }
-    header > div:first-of-type > nav > ul{
-        padding-bottom: 30px;
-    }
     header > div:first-of-type > nav > ul:after{
         content: ''; display: block; clear: both;
     }
@@ -1618,6 +1615,7 @@ a.btn_arrow{
     }
     header > div:first-of-type > nav > ul > li > ol{
         display: none;
+        padding-bottom: 30px;
     }
     header > div:first-of-type > nav > ul > li a,
     header > div:first-of-type > div > a,
