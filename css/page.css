@@ -4759,7 +4759,7 @@
     .indexContainer > .illuminateBox .bx-wrapper .bx-controls .bx-controls-direction,
     .indexContainer > .investBox .bx-wrapper .bx-controls .bx-controls-direction,
     .detailContainer > .galleryBox .bx-wrapper .bx-controls .bx-controls-direction{
-        position: absolute; right: 3.13%; top: 0;
+        position: absolute; right: 0; top: 0;
         width: 9%; max-width: 90px;
     }
     .indexContainer > .illuminateBox .bx-wrapper .bx-controls .bx-controls-direction a,
