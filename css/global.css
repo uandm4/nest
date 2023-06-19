@@ -1257,7 +1257,7 @@ a.btn_arrow{
         float: right;
         position: relative;
         width: 50%;
-        padding-top: 40px;
+        padding-top: 35px;
         text-align: right;
     }
     header > div:first-of-type > div > a:not(:first-of-type){
@@ -1610,7 +1610,7 @@ a.btn_arrow{
     }
     header > div:first-of-type > nav > ul > li{
         float: left; width: 25%;
-        padding-top: 40px;
+        padding-top: 35px;
     }
     header > div:first-of-type > nav > ul > li > b{
         display: block;
@@ -1709,7 +1709,7 @@ a.btn_arrow{
         float: right;
         position: relative;
         width: 22%;
-        padding-top: 40px;
+        padding-top: 35px;
         text-align: right;
     }
     header > div:first-of-type > div > a:not(:first-of-type){
