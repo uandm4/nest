@@ -2350,7 +2350,18 @@
         color: #474747;
     }
 }
-
+@media screen and (orientation: landscape){
+    .meetTeamContainer > div > figure > img{
+        display: block;
+        width: 100vw;
+    }
+    .meetTeamContainer > div > figure > figcaption{
+        height: 90%;
+    }
+    .meetTeamContainer > div > figure > figcaption > div{
+        height: 20vw;
+    }
+}
 
 
 
@@ -6939,10 +6950,5 @@
 @media screen and (min-width: 2400px){
     .meetTeamContainer > div > figure > figcaption > div{
         height: 1080px;
-    }
-}
-@media screen and (orientation: landscape){
-    .meetTeamContainer > div > figure > img{
-        width: 100vw;
     }
 }
