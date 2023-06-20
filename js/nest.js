@@ -27,6 +27,7 @@ $(document).ready(function(){
     panelControl(".meetTeamContainer > ul > li > input[type='button']");
     cardBg();
     fileCustom();
+    colorSelect();
 });
 
 function customSlider(slideName,slideMode,slideEasing,slideVideo,slidePager,slidePagerType,slideControls,slideAuto,slideAutoControls,slideAutoStart,slideAutoHover,slideMaxSlides,slideMinSlides,slideSlideWidth,slideShrinkItems,slideSlideMargin,slideWrapperClass){
@@ -300,4 +301,15 @@ function fileCustom(){
         $("label[for='file']").text(fileName).addClass("active").css({"background-color":"#474747","color":"#fff"});
         $(".txtContainer.errorsContainer > form > fieldset:last-of-type > input[type='submit']").removeAttr("disabled");
       });
+}
+
+function colorSelect(){
+    var color = $(".detailContainer > div:nth-child(2) > form > fieldset:nth-of-type(1) > input");
+    var colorLength = color.length;
+
+    if(window.matchMedia("(max-width: 767px)").matches){
+        if(colorLength > 5){
+            $(".detailContainer > div:nth-child(2) > form > fieldset:nth-of-type(1)").css("top","112vw");
+        }
+    }
 }

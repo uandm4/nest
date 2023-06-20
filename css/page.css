@@ -948,7 +948,7 @@
         font-size: 14px; line-height: 20px;
     }
     .detailContainer > div:nth-child(2) > form > fieldset:nth-of-type(1){
-        position: absolute; top: 112vw;
+        position: absolute; top: 123vw; width: 100%;
         text-align: center;
     }
     .detailContainer > div:nth-child(2) > form > fieldset:nth-of-type(1) > legend,
