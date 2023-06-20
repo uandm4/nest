@@ -584,6 +584,9 @@ a.btn_arrow{
 
 /* ? mobile */
 @media screen and (max-width: 767px){
+    .colorSelect:before{
+        margin: 0px auto 5px;
+    }
     .listBox > li div{
         height: auto;
     }
