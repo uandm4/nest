@@ -584,9 +584,19 @@ a.btn_arrow{
 
 /* ? mobile */
 @media screen and (max-width: 767px){
-    .colorSelect:before{
-        margin: 0px auto 5px;
+    .colorSelect{
+        margin-bottom: 10px;
     }
+    .colorSelect:before{
+        margin: 5px auto 6px;
+    }
+    input[name='colorSelect']:checked + label:before{
+        margin: 4px auto 5px;
+    }
+    input[name='colorSelect']:checked + label{
+        background-position: center 1px;
+    }
+
     .listBox > li div{
         height: auto;
     }

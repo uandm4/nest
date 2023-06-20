@@ -308,8 +308,8 @@ function colorSelect(){
     var colorLength = color.length;
 
     if(window.matchMedia("(max-width: 767px)").matches){
-        if(colorLength > 5){
-            $(".detailContainer > div:nth-child(2) > form > fieldset:nth-of-type(1)").css("top","112vw");
+        if(colorLength > 3){
+            $(".detailContainer > div:nth-child(2) > form > fieldset:nth-of-type(1)").css("top","110vw");
         }
     }
 }
