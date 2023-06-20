@@ -771,6 +771,9 @@ a.btn_arrow{
         position: absolute; padding-left: 5px;
         transition: color 0.25s ease-in-out;
     }
+    header > div:first-of-type > div{
+        padding-right: 2%;
+    }
     header > div:first-of-type > div > a{
         font-size: 0; padding: 15px;
         background-position: center center;
