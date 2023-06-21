@@ -2267,14 +2267,22 @@
         border: 1px solid #ccc;
         width: 100%; margin-top: 20px;
     }
+    .txtContainer.errorsContainer > form > fieldset:last-of-type > input[type="submit"].btn_arrow:disabled:hover{
+        color: #ccc;
+        border: 1px solid #ccc;
+        background-color: transparent;
+        text-align: center;
+        padding-left: 0px;
+    }
     .txtContainer.errorsContainer > form > fieldset:last-of-type > input[type="submit"]{
         border: 1px solid #474747;
+        width: 100%; margin-top: 20px;
     }
     .txtContainer.errorsContainer > form > fieldset:last-of-type > input[type="submit"].btn_arrow:hover{
         color: #fff; border-color: #474747;
-        padding-left: 18.11%;
+        padding-left: calc(50% - 30px);
         text-align: left;
-        background: url('../images/ico_arrowWhite.svg') 59.26% center / 15px no-repeat;
+        background: url('../images/ico_arrowWhite.svg') 60% center / 15px no-repeat;
         background-color: #474747;
     }
     .txtContainer.errorsContainer > form > fieldset:last-of-type > input[type="file"]{
@@ -4474,6 +4482,13 @@
     .txtContainer.errorsContainer > form > fieldset:last-of-type > input[type="submit"]:disabled{
         color: #ccc;
         border: 1px solid #ccc;
+    }
+    .txtContainer.errorsContainer > form > fieldset:last-of-type > input[type="submit"].btn_arrow:disabled:hover{
+        color: #ccc;
+        border: 1px solid #ccc;
+        background-color: transparent;
+        text-align: center;
+        padding-left: 0px;
     }
     .txtContainer.errorsContainer > form > fieldset:last-of-type > input[type="submit"]{
         border: 1px solid #474747;
@@ -6794,6 +6809,13 @@
     .txtContainer.errorsContainer > form > fieldset:last-of-type > input[type="submit"]:disabled{
         color: #ccc;
         border: 1px solid #ccc;
+    }
+    .txtContainer.errorsContainer > form > fieldset:last-of-type > input[type="submit"].btn_arrow:disabled:hover{
+        color: #ccc;
+        border: 1px solid #ccc;
+        background-color: transparent;
+        text-align: center;
+        padding-left: 0px;
     }
     .txtContainer.errorsContainer > form > fieldset:last-of-type > input[type="submit"]{
         border: 1px solid #474747;
