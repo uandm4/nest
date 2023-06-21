@@ -880,27 +880,27 @@
     }
     .detailContainer > .sliderList ul.sliderProduct > li > img{
         display: block; width: 100%;
-        padding-top: 50px;
+        padding-top: 80px;
         background-color: #f7f7f7;
     }
 
     /* ? DIRECTION CONTROLS (NEXT / PREV) */
     .detailContainer > .sliderList .bx-controls .bx-controls-direction .bx-prev{
         position: absolute;
-        top: 50%; transform: translateY(-50%);
+        top: 50%;
         left: 2%;
         background: url('../images/ico_arrowL.svg');
     }
     .detailContainer > .sliderList .bx-controls .bx-controls-direction .bx-next{
         position: absolute;
-        top: 50%; transform: translateY(-50%);
+        top: 50%;
         right: 2%;
         background: url('../images/ico_arrowR.svg');
     }
 
     /* ? PAGER */
     .detailContainer > .sliderList .bx-controls .bx-pager{
-        position: absolute; left: 2%; top: 60px;
+        position: absolute; left: 2%; top: 90px;
         font-family: kings-caslon-display, serif;
         font-weight: 400;
         font-size: 16px;
@@ -920,7 +920,7 @@
     }
     .detailContainer > div:nth-child(2) > span:first-of-type,
     .detailContainer > div:nth-child(2) > h2{
-        position: absolute; top: 60px; right: 0;
+        position: absolute; top: 90px; right: 0;
         /* display: block; width: 100%; */
         color: #2e2e2e;
     }
@@ -928,11 +928,11 @@
         text-align: right;
     }
     .detailContainer > div:nth-child(2) > h2{
-        margin-top: 35px;
+        margin-top: 30px;
         text-align: right; font-size: 24px; line-height: 30px;
     }
     .detailContainer > div:nth-child(2) > span > input[type='button']{
-        padding-left: 30px;
+        padding-left: 20px;
         cursor: pointer;
         border: none;
         text-indent: -9999px;
@@ -950,7 +950,7 @@
         font-size: 14px; line-height: 20px;
     }
     .detailContainer > div:nth-child(2) > form > fieldset:nth-of-type(1){
-        position: absolute; top: 123vw; width: 98%;
+        position: absolute; top: 130vw; width: 98%;
         text-align: center;
     }
     .detailContainer > div:nth-child(2) > form > fieldset:nth-of-type(1) > legend,

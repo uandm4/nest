@@ -309,7 +309,7 @@ function colorSelect(){
 
     if(window.matchMedia("(max-width: 767px)").matches){
         if(colorLength > 3){
-            $(".detailContainer > div:nth-child(2) > form > fieldset:nth-of-type(1)").css("top","110vw");
+            $(".detailContainer > div:nth-child(2) > form > fieldset:nth-of-type(1)").css("top","120vw");
         }
     }
 }
