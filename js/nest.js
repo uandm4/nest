@@ -283,13 +283,13 @@ function cardBg(){
 
         switch(cardNum){
             case "4" :
-                card.css("background-image","url('https://uandm4.github.io/nest/images/card_visa.svg')");
+                card.css("background-image","url('../nest/images/card_visa.svg')");
                 break;
             case "5" :
-                card.css("background-image","url('https://uandm4.github.io/nest/images/card_master.svg')");
+                card.css("background-image","url('../nest/images/card_master.svg')");
                 break;
             default:
-                card.css("background-image","url('https://uandm4.github.io/nest/images/card_american.svg')");
+                card.css("background-image","url('../nest/images/card_american.svg')");
                 break;
         }
     });
