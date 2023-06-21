@@ -1,9 +1,9 @@
 video{
     width: 100%;
 }
-source{
+/* source{
     display: block; width: 100%;
-}
+} */
 input{
     border-radius: 0px;
 }
