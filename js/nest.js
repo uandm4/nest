@@ -14,7 +14,7 @@ $(document).ready(function(){
     valueActive(".checkLabel input");
     valueActive(".labelComponent input");
 
-    checkoutNextStep(".checkoutContainer .openBtn",".checkoutContainer [id$='Box']");
+    checkoutNextStep(".checkoutContainer [id$='Box']");
     goBack();
     nav();       
     close();
@@ -52,13 +52,14 @@ function customSlider(slideName,slideMode,slideEasing,slideVideo,slidePager,slid
     });
 }
 
-function checkoutNextStep(btn,panel){
+function checkoutNextStep(panel){
     var currentPanel = null;
     var currentForm = null;
 
-    $(btn).click(function(){
+    $(".checkoutContainer [id$='Box'] input[type='submit']").click(function(){
         currentForm = "#" + $(this).closest("form").attr("id");
         currentPanel = "#" + $(this).attr("data-nextstep");
+        console.log(currentPanel);
         if (currentForm != null){
             $(currentForm).submit(function(e){
                 e.preventDefault();
@@ -66,15 +67,15 @@ function checkoutNextStep(btn,panel){
                 $(currentPanel).addClass("active");
             });
         }
-        // else if(currentForm == null){
-        //     console.log(currentForm);
-        //     $(panel).removeClass("active");
-        //     $(currentPanel).addClass("active"); 
-        // }
+    });
+    $(".checkoutContainer [id$='Box'] mark").click(function(){
+        currentPanel = "#" + $(this).attr("data-nextstep");
+        $(panel).removeClass("active");
+        $(currentPanel).addClass("active"); 
     });
     $("label[for='acceptTerms']").click(function(){
         if(currentPanel == "#confirmBox"){
-            $("#payNow").removeAttr("disabled");
+            $("#payNow").attr("disabled",false);
         }
     });
 }
