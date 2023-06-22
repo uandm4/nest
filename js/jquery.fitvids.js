@@ -33,7 +33,6 @@
       .fluid-width-video-wrapper iframe,  \
       .fluid-width-video-wrapper object,  \
       .fluid-width-video-wrapper embed,   \
-      .fluid-width-video-wrapper source,  \
       .fluid-width-video-wrapper video {  \
          position: absolute;              \
          top: 0;                          \
@@ -56,7 +55,6 @@
         "iframe[src*='www.kickstarter.com']",
         "object",
         "embed",
-        "source",
         "video"
       ];
 
