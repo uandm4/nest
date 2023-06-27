@@ -114,7 +114,7 @@
                         <label for="addressTown">Town / city</label>
                     </span>
                     <span class="labelComponent">
-                        <input type="text" id="zipCode" minlength="5" maxlength="5" required>
+                        <input type="text" id="zipCode" minlength="5" maxlength="5" required numberOnly>
                         <label for="zipCode">Post / zip code</label>
                     </span>
                     <div class="pccComponent">
@@ -159,20 +159,20 @@
                 <fieldset>
                     <div>
                         <label for="cardNumber">Card Number</label>
-                        <input type="text" id="cardNumber" minlength="4" maxlength="4" placeholder="0000" required>
-                        <input type="text" minlength="4" maxlength="4" placeholder="0000" required>
-                        <input type="text" minlength="4" maxlength="4" placeholder="0000" required>
-                        <input type="text" minlength="4" maxlength="4" placeholder="0000" required>
+                        <input type="text" id="cardNumber" minlength="4" maxlength="4" placeholder="0000" required numberOnly>
+                        <input type="text" minlength="4" maxlength="4" placeholder="0000" required numberOnly>
+                        <input type="text" minlength="4" maxlength="4" placeholder="0000" required numberOnly>
+                        <input type="text" minlength="4" maxlength="4" placeholder="0000" required numberOnly>
                     </div>
                     <div>
                         <label for="cardExpiry">Expiry</label>
-                        <input type="text" minlength="2" maxlength="2" id="cardExpiry" placeholder="00" required>
+                        <input type="text" minlength="2" maxlength="2" id="cardExpiry" placeholder="00" required numberOnly>
                         <span>/</span>
-                        <input type="text" minlength="2" maxlength="2" placeholder="00" required>
+                        <input type="text" minlength="2" maxlength="2" placeholder="00" required numberOnly>
                     </div>
                     <div>
                         <label for="cardCvc">cvc</label>
-                        <input type="text" id="cardCvc" minlength="3" maxlength="3" placeholder="000" required>
+                        <input type="text" id="cardCvc" minlength="3" maxlength="3" placeholder="000" required numberOnly>
                     </div>
                 </fieldset>
                 <input type="submit" value="continue" class="btn_arrow bgArrow openBtn" data-nextStep="confirmBox">

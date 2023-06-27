@@ -28,6 +28,7 @@ $(document).ready(function(){
     cardBg();
     fileCustom();
     colorSelect();
+    numberOnly();
 });
 
 function customSlider(slideName,slideMode,slideEasing,slideVideo,slidePager,slidePagerType,slideControls,slideAuto,slideAutoControls,slideAutoStart,slideAutoHover,slideMaxSlides,slideMinSlides,slideSlideWidth,slideShrinkItems,slideSlideMargin,slideWrapperClass){
@@ -313,4 +314,10 @@ function colorSelect(){
             $(".detailContainer > div:nth-child(2) > form > fieldset:nth-of-type(1)").css("top","120vw");
         }
     }
+}
+
+function numberOnly(){
+    $("input:text[numberOnly]").on("keyup", function(){
+        $(this).val($(this).val().replace(/[^0-9]/g,""));
+    });
 }
