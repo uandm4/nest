@@ -29,6 +29,7 @@ $(document).ready(function(){
     fileCustom();
     colorSelect();
     numberOnly();
+    btnTop();
 });
 
 function customSlider(slideName,slideMode,slideEasing,slideVideo,slidePager,slidePagerType,slideControls,slideAuto,slideAutoControls,slideAutoStart,slideAutoHover,slideMaxSlides,slideMinSlides,slideSlideWidth,slideShrinkItems,slideSlideMargin,slideWrapperClass){
@@ -319,5 +320,14 @@ function colorSelect(){
 function numberOnly(){
     $("input:text[numberOnly]").on("keyup", function(){
         $(this).val($(this).val().replace(/[^0-9]/g,""));
+    });
+}
+
+function btnTop(){
+    $(".btnTop > img").click(function(){
+        $("html").animate({
+            scrollTop : 0
+        }, 400);
+        return false;
     });
 }
