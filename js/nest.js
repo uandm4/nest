@@ -1,9 +1,9 @@
 $(document).ready(function(){
-    customSlider(".sliderVideo",'horizontal','ease-in-out',true,false,false,false,true,false,true,true,1,1,0,true,0,'bx-wrapper');
-    customSlider(".sliderVCarousel",'vertical','ease-in-out',false,true,false,true,true,false,true,true,1,1,0,true,0,'bx-wrapper');
-    customSlider(".indexContainer .sliderHCarousel",'horizontal','ease-in-out',false,true,false,true,true,false,true,true,4,1,380,true,60,'bx-wrapper');
-    customSlider(".detailContainer .sliderHCarousel",'horizontal','ease-in-out',false,true,false,true,true,false,true,true,3,1,640,true,60,'bx-wrapper');
-    customSlider(".sliderProduct",'horizontal','ease-in-out',false,true,'short',true,true,false,true,true,1,1,1280,true,0,'sliderList');
+    customSlider(".sliderVideo",'horizontal','ease-in-out',true,false,false,false,true,false,true,true,1,1,0,true,0,'bx-wrapper',true,false);
+    customSlider(".sliderVCarousel",'vertical','ease-in-out',false,true,false,true,true,false,true,true,1,1,0,true,0,'bx-wrapper',false,true);
+    customSlider(".indexContainer .sliderHCarousel",'horizontal','ease-in-out',false,true,false,true,true,false,true,true,4,1,380,true,60,'bx-wrapper',false,true);
+    customSlider(".detailContainer .sliderHCarousel",'horizontal','ease-in-out',false,true,false,true,true,false,true,true,3,1,640,true,60,'bx-wrapper',false,true);
+    customSlider(".sliderProduct",'horizontal','ease-in-out',false,true,'short',true,true,false,true,true,1,1,1280,true,0,'sliderList',false,true);
     
     toggleActive("input[value='wish']");
     toggleActive(".selectBox");
@@ -32,7 +32,7 @@ $(document).ready(function(){
     btnTop();
 });
 
-function customSlider(slideName,slideMode,slideEasing,slideVideo,slidePager,slidePagerType,slideControls,slideAuto,slideAutoControls,slideAutoStart,slideAutoHover,slideMaxSlides,slideMinSlides,slideSlideWidth,slideShrinkItems,slideSlideMargin,slideWrapperClass){
+function customSlider(slideName,slideMode,slideEasing,slideVideo,slidePager,slidePagerType,slideControls,slideAuto,slideAutoControls,slideAutoStart,slideAutoHover,slideMaxSlides,slideMinSlides,slideSlideWidth,slideShrinkItems,slideSlideMargin,slideWrapperClass,sliderRandom,sliderAuto){
     $(slideName).bxSlider({
         mode: slideMode,
         easing: slideEasing,
@@ -50,6 +50,8 @@ function customSlider(slideName,slideMode,slideEasing,slideVideo,slidePager,slid
         shrinkItems: slideShrinkItems,
         slideMargin: slideSlideMargin,
         wrapperClass: slideWrapperClass,
+        randomStart: sliderRandom,
+        auto: sliderAuto,
         touchEnabled: false
     });
 }
