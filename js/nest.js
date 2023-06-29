@@ -30,6 +30,7 @@ $(document).ready(function(){
     colorSelect();
     numberOnly();
     btnTop();
+    randomVideo();
 });
 
 function customSlider(slideName,slideMode,slideEasing,slideVideo,slidePager,slidePagerType,slideControls,slideAuto,slideAutoControls,slideAutoStart,slideAutoHover,slideMaxSlides,slideMinSlides,slideSlideWidth,slideShrinkItems,slideSlideMargin,slideWrapperClass){
@@ -330,4 +331,10 @@ function btnTop(){
         }, 400);
         return false;
     });
+}
+
+function randomVideo(){
+    var video = ["video_01","video_02"];
+    var currentIndex = Math.floor(Math.random()*video.length) + 1;
+    $(".indexContainer > .sliderVideo > li > video > source").attr("src","video/video_0" + currentIndex + ".mp4");
 }
