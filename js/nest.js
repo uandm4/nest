@@ -351,8 +351,4 @@ function randomVideo(){
 
     $(".indexContainer > .sliderVideo > li").css("display","none");
     $(".indexContainer > .sliderVideo > li:nth-of-type(" + currentIndex + ")").css("display","block");
-
-    // var video = ["video_01","video_02"];
-    // var currentIndex = Math.floor(Math.random()*video.length) + 1;
-    // $(".indexContainer > .sliderVideo > li > video > source").attr("src","video/video_0" + currentIndex + ".mp4");
 }
