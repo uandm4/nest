@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    customSlider(".sliderVideo",'horizontal','ease-in-out',true,false,false,false,true,false,true,true,1,1,0,true,0,'bx-wrapper',true,false);
+    customSlider(".sliderVideo",'fade','ease-in-out',true,false,false,false,true,false,true,true,1,1,0,true,0,'bx-wrapper',true,false);
     customSlider(".sliderVCarousel",'vertical','ease-in-out',false,true,false,true,true,false,true,true,1,1,0,true,0,'bx-wrapper',false,true);
     customSlider(".indexContainer .sliderHCarousel",'horizontal','ease-in-out',false,true,false,true,true,false,true,true,4,1,380,true,60,'bx-wrapper',false,true);
     customSlider(".detailContainer .sliderHCarousel",'horizontal','ease-in-out',false,true,false,true,true,false,true,true,3,1,640,true,60,'bx-wrapper',false,true);
