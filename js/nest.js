@@ -347,7 +347,6 @@ function randomVideo(){
     var video = $(".indexContainer > .sliderVideo > li");
     var videoLength = video.length;
     var currentIndex = Math.floor(Math.random()*videoLength) + 1;
-    alert(currentIndex);
 
     $(".indexContainer > .sliderVideo > li").css("display","none");
     $(".indexContainer > .sliderVideo > li:nth-of-type(" + currentIndex + ")").css("display","block");
