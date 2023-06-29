@@ -31,6 +31,7 @@ $(document).ready(function(){
     numberOnly();
     btnTop();
     randomVideo();
+    btnTop();
 });
 
 function customSlider(slideName,slideMode,slideEasing,slideVideo,slidePager,slidePagerType,slideControls,slideAuto,slideAutoControls,slideAutoStart,slideAutoHover,slideMaxSlides,slideMinSlides,slideSlideWidth,slideShrinkItems,slideSlideMargin,slideWrapperClass){
@@ -327,6 +328,15 @@ function numberOnly(){
 function btnTop(){
     $(".btnTop > img").click(function(){
         $("html").animate({
+            scrollTop : 0
+        }, 400);
+        return false;
+    });
+}
+
+function btnTop(){
+    $(".btnTop > img").click(function(){
+        $('html').animate({
             scrollTop : 0
         }, 400);
         return false;
