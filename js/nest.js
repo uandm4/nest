@@ -344,10 +344,10 @@ function btnTop(){
 }
 
 function randomVideo(){
-    var video = $(".indexContainer > .sliderVideo > li");
+    var video = $(".indexContainer > div > .sliderVideo > li");
     var videoLength = video.length;
     var currentIndex = Math.floor(Math.random()*videoLength) + 1;
 
-    $(".indexContainer > .sliderVideo > li").css("display","none");
-    $(".indexContainer > .sliderVideo > li:nth-of-type(" + currentIndex + ")").css("display","block");
+    video.css("display","none");
+    $(".indexContainer > div > .sliderVideo > li:nth-of-type(" + currentIndex + ")").css("display","block");
 }
