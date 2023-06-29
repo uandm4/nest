@@ -2357,7 +2357,7 @@
         color: #474747;
     }
 }
-@media screen and (orientation: landscape){
+@media screen and (max-width:767px) and (orientation: landscape){
     .meetTeamContainer > div > figure > img{
         display: block;
         width: 100vw;
