@@ -30,6 +30,7 @@ $(document).ready(function(){
     colorSelect();
     numberOnly();
     btnTop();
+    videoFitvids();
 });
 
 function customSlider(slideName,slideMode,slideEasing,slideVideo,slidePager,slidePagerType,slideControls,slideAuto,slideAutoControls,slideAutoStart,slideAutoHover,slideMaxSlides,slideMinSlides,slideSlideWidth,slideShrinkItems,slideSlideMargin,slideWrapperClass,sliderRandom,sliderAuto){
@@ -332,4 +333,8 @@ function btnTop(){
         }, 400);
         return false;
     });
+}
+
+function videoFitvids{
+    $(".sliderVideo").fitVids();
 }
