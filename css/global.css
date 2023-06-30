@@ -921,9 +921,6 @@ a.btn_arrow{
         filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.15));
         transition: transform 0.3s ease-in-out;
     }
-    .btnTop img:hover{
-        transform: translateY(-20%);
-    }
     
     /* * footer */
     footer > div:first-of-type > div:first-of-type > address > a,
@@ -1376,9 +1373,6 @@ a.btn_arrow{
         display: block;
         filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.15));
         transition: transform 0.3s ease-in-out;
-    }
-    .btnTop img:hover{
-        transform: translateY(-20%);
     }
     
     /* * footer */
