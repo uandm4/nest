@@ -30,7 +30,6 @@ $(document).ready(function(){
     colorSelect();
     numberOnly();
     btnTop();
-    videoFitvids();
 });
 
 function customSlider(slideName,slideMode,slideEasing,slideVideo,slidePager,slidePagerType,slideControls,slideAuto,slideAutoControls,slideAutoStart,slideAutoHover,slideMaxSlides,slideMinSlides,slideSlideWidth,slideShrinkItems,slideSlideMargin,slideWrapperClass,sliderRandom,sliderAuto){
