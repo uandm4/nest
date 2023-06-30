@@ -334,7 +334,3 @@ function btnTop(){
         return false;
     });
 }
-
-function videoFitvids{
-    $(".sliderVideo").fitVids();
-}
