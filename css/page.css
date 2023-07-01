@@ -547,9 +547,6 @@
     .indexContainer > div:nth-of-type(7) > ul{
         margin-top: 20px;
     }
-    /* .indexContainer > div:nth-of-type(7) > ul:after{
-        content: ''; display: block; clear: both;
-    } */
     .indexContainer > div:nth-of-type(7) > ul > li{
         background-repeat: no-repeat; 
         background-size: cover; 
@@ -559,11 +556,7 @@
     .indexContainer > div:nth-of-type(7) > ul > li:nth-child(2){background-image: url('../images/home_table.jpg');}
     .indexContainer > div:nth-of-type(7) > ul > li:nth-child(3){background-image: url('../images/home_floor.jpg');}
     .indexContainer > div:nth-of-type(7) > ul > li:nth-child(4){background-image: url('../images/home_desk.jpg');}
-    /* .indexContainer > div:nth-of-type(7) > ul > li:not(:first-child){
-        margin-left: 1.2%;
-    } */
     .indexContainer > div:nth-of-type(7) > ul > li{
-        /* float: left; width: 24.1%; */
         min-height: 500px;
         position: relative;
     }
@@ -587,7 +580,7 @@
     }
     .indexContainer > div:nth-of-type(7) > ul > li > a{
         display: inline-block; width: 80%;
-        padding: 5px 0 5px; box-sizing: border-box;
+        padding: 14px 0 5px; box-sizing: border-box;
         margin-top: 85px;
         text-transform: uppercase;
         font-size: 30px;
@@ -2797,7 +2790,7 @@
     }
     .indexContainer > div:nth-of-type(7) > ul > li > a{
         display: inline-block; width: 80%;
-        padding: 5px 0 5px; box-sizing: border-box;
+        padding: 11px 0 5px; box-sizing: border-box;
         margin-top: 85px;
         text-transform: uppercase;
         font-size: 3vw;
@@ -5117,7 +5110,7 @@
     }
     .indexContainer > div:nth-of-type(7) > ul > li > a{
         display: inline-block; width: 80%;
-        padding: 5px 0 5px; box-sizing: border-box;
+        padding: 16px 0 5px; box-sizing: border-box;
         margin-top: 85px;
         text-transform: uppercase;
     }
