@@ -325,6 +325,16 @@ function numberOnly(){
 }
 
 function btnTop(){
+    $(".btnTop > img").hide();
+
+    $(window).scroll(function(){
+        if($(window).scrollTop() > 100){
+            $(".btnTop > img").fadeIn();
+        } else{
+            $(".btnTop > img").fadeOut();
+        }
+    });
+
     $(".btnTop > img").click(function(){
         $("html").animate({
             scrollTop : 0
@@ -337,7 +347,8 @@ function randomVideo(){
     var video = $(".indexContainer > div > .sliderVideo > li");
     var videoLength = video.length;
     var currentIndex = Math.floor(Math.random()*videoLength) + 1;
+    var playVideo = $(".indexContainer > div > .sliderVideo > li:nth-of-type(" + currentIndex + ")").clone();
 
-    video.css("display","none");
-    $(".indexContainer > div > .sliderVideo > li:nth-of-type(" + currentIndex + ")").css("display","block");
+    video.remove();
+    playVideo.appendTo(".indexContainer > div > .sliderVideo");
 }
