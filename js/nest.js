@@ -51,7 +51,8 @@ function customSlider(slideName,slideMode,slideEasing,slideVideo,slidePager,slid
         shrinkItems: slideShrinkItems,
         slideMargin: slideSlideMargin,
         wrapperClass: slideWrapperClass,
-        randomStart: sliderRandom
+        randomStart: sliderRandom,
+        touchEnabled: false
     });
 }
 
