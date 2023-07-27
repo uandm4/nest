@@ -1591,11 +1591,12 @@ a.btn_arrow{
         background-color: transparent;
         cursor: pointer;
     }
-    header.mainGnb > div:first-of-type > input[type='button']{background-image: url('../images/ico_menuWhite.svg');}
-    header.mainGnb.active > div:first-of-type > input[type='button']{background-image: url('../images/ico_menu.svg');}
+    header.mainGnb > div:first-of-type > input[type='button']{
+        display: none;
+    }
     header > div:first-of-type > h1{
         width: 60px;
-        margin-left: 1%;
+        /* margin-left: 1%; */
     }
     header > div:first-of-type > h1 > a{
         display: block;
